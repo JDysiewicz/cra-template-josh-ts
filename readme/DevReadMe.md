@@ -158,12 +158,12 @@ This project using automated testing using Cypress. This can be run from the ter
 ```js
 {
 	"adminUsername": "admin",
-	"adminPassword": "Password123"
+	"adminPassword": "password444"
 }
 
 // OR in normal .env file
 CYPRESS_adminUsername=admin
-CYPRESS_adminPassword=Password123
+CYPRESS_adminPassword=password444
 ```
 
 Then, in a cypress test, we would write:
