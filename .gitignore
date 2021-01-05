@@ -9,8 +9,8 @@
 /coverage
 
 # Env vars
-cypress.env.json
-.env
+/cypress.env.json
+/.env
 
 # production
 /build
