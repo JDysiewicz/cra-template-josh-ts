@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"author": "Joshua Dysiewicz <joshuadysiewicz@googlemail.com>",
 	"engines": {
-		"node": ">=10"
+		"node": ">=9"
 	},
 	"main": "template.json",
 	"description": "A quick start CRA template for TypeScript React projects containing setup for Prettier, ESLint, automated testing with Cypress, and a readme explaining how to use each technology.",
