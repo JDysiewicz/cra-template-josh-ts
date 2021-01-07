@@ -1,13 +1,13 @@
 {
 	"name": "cra-template-josh-ts",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"license": "MIT",
 	"author": "Joshua Dysiewicz <joshuadysiewicz@googlemail.com>",
 	"engines": {
 		"node": ">=9"
 	},
 	"main": "template.json",
-	"description": "A quick start CRA template for TypeScript React projects containing setup for Prettier, ESLint, automated testing with Cypress, and a readme explaining how to use each technology.",
+	"description": "A quick start CRA template for TypeScript React projects containing setup for React, TypeScript, ESLint, Prettier, Emotion CSS-in-JS, Cypress automated testing, and a README briefly explaining how to use each.",
 	"keywords": [
 		"react",
 		"create-react-app",
