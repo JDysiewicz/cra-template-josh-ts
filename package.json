@@ -52,7 +52,10 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"lint": "node_modules/.bin/eslint --ext js,jsx,ts,tsx src",
-		"cy:dev": "cypress open"
+		"cy:dev": "cypress open",
+		"clean-files": "rm -rf template/cypress template/public template/src && rm -f template/.env template/.eslintrc.js template/.prettierrc.js template/cypress.env.json template/gitignore template/README.md template/tsconfig.json",
+		"copy-files": "cp -a ./src/. template/src && cp -a ./cypress/. template/cypress && cp -a ./public/. template/public && cp .env .eslintrc.js .prettierrc.js cypress.env.json README.md tsconfig.json template/ && cp .gitignore template/gitignore",
+		"prePublish": "yarn clean-files && yarn copy-files"
 	},
 	"eslintConfig": {
 		"extends": [
