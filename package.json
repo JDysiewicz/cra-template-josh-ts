@@ -8,7 +8,26 @@
 	},
 	"main": "template.json",
 	"description": "A quick start CRA template for TypeScript React projects containing setup for Prettier, ESLint, automated testing with Cypress, and a readme explaining how to use each technology.",
-	"private": true,
+	"keywords": [
+		"react",
+		"create-react-app",
+		"cra-template",
+		"template",
+		"eslint",
+		"cypress",
+		"prettier",
+		"typescript"
+	],
+	"files": [
+		"template",
+		"template.json"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JDysiewicz/cra-template-josh-ts",
+		"directory": "/"
+	},
+	"private": false,
 	"dependencies": {
 		"@emotion/core": "^11.0.0",
 		"@emotion/react": "^11.1.4",
