@@ -1,6 +1,13 @@
 {
-	"name": "hdm-portal-rework",
+	"name": "cra-template-josh-ts",
 	"version": "0.1.0",
+	"license": "MIT",
+	"author": "Joshua Dysiewicz <joshuadysiewicz@googlemail.com>",
+	"engines": {
+		"node": ">=10"
+	},
+	"main": "template.json",
+	"description": "A quick start CRA template for TypeScript React projects containing setup for Prettier, ESLint, automated testing with Cypress, and a readme explaining how to use each technology.",
 	"private": true,
 	"dependencies": {
 		"@emotion/core": "^11.0.0",
